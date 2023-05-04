@@ -1,0 +1,28 @@
+@import "../../../variables";
+header {
+    padding-top: 53px;
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .nav-icon-part{
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+        nav{
+            display: flex;
+            gap: 31px;
+
+            .nav-link{
+                font-family: $common-writing-font;
+                font-style: normal;
+                color: $text-color;
+                font-weight: 400;
+                font-size: 20px;
+                text-decoration: none;
+            }
+        }
+    }
+  }
+}

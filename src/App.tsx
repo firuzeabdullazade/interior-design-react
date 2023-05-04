@@ -1,11 +1,19 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
+import { Header } from "./app/components/Header/Header";
+import { Route, Routes } from "react-router-dom";
+
 
 function App() {
   return (
-    <div>
-      <div></div>
-    </div>
+    <>
+     <Header />
+     <main>
+      <Routes>
+      </Routes>
+     </main>
+    </>
+  
   );
 }
 
